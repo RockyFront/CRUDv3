@@ -1,16 +1,16 @@
 $success-color:#22c55e;
 $primary-color:#67e8f9; 
+$secondary-color: #aaa;
 
-
+// Buttons
 .btn{
-    
     border: none;
     outline: none;
     border-radius: 5px ;
     padding: 5px 15px;
     font-size: 1rem;
-
 }
+
 .success{
     color: white;
     background-color: $success-color;
@@ -18,4 +18,18 @@ $primary-color:#67e8f9;
 .blue{
 
     background-color: $primary-color;
+}
+
+// Inputs
+.input {
+    border: 1px solid $secondary-color;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+// Icons
+.icon {
+    width: 2rem;
+    cursor: pointer;
 }

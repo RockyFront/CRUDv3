@@ -1,0 +1,72 @@
+@import "./cssreset";
+@import "./config";
+
+
+* {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif, Arial;
+
+}
+
+// header**
+header{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    .header__context {
+        text-align: center;
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .header-actions {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        input {
+            width: 50rem;
+        }
+    }
+
+}
+
+main {
+    table {
+        width: 95%;
+        margin: 7rem auto;
+        td, th {
+            vertical-align: middle;
+        }
+
+    }
+
+    th, td {
+        text-align: center;
+        padding: 3rem 0;
+        border: 1px solid $secondary-color;
+        font-weight: bold;
+    }
+
+    td {
+        padding: 1.5rem 0;
+        font-weight: normal;
+    }
+}
