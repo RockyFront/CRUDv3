@@ -1,4 +1,5 @@
-![](https://via.placeholder.com/500x100/FF0000/FFFFFF/?text=IMPORTANT NOTICE)
+
+![](https://via.placeholder.com/500x100/FF0000/FFFFFF/?text=IMPORTANT_NOTICE)
 
 Dear programmer:  
 When I wrote this code, only god and  
