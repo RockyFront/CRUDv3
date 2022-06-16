@@ -1,5 +1,5 @@
 
-# ___IMPORTANT NOTICE___
+# \_\_\_IMPORTANT NOTICE\_\_\_
 
 Dear programmer:  
 When I wrote this code, only god and  
