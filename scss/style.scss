@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: sans-serif, Arial;
-
+   
 }
 
 // header**
@@ -51,7 +51,7 @@ header{
 main {
     table {
         width: 95%;
-        margin: 7rem auto;
+        margin: 5rem auto;
         td, th {
             vertical-align: middle;
         }
@@ -70,3 +70,17 @@ main {
         font-weight: normal;
     }
 }
+
+footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    // margin-bottom: 5rem;
+    .pagination{
+        display: flex;
+        gap: .5rem;
+
+    }
+}
+

@@ -1,6 +1,7 @@
 $success-color:#22c55e;
 $primary-color:#67e8f9; 
 $secondary-color: #aaa;
+$info-color:#93c5fd;
 
 // Buttons
 .btn{
@@ -9,6 +10,7 @@ $secondary-color: #aaa;
     border-radius: 5px ;
     padding: 5px 15px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .success{
@@ -19,7 +21,14 @@ $secondary-color: #aaa;
 
     background-color: $primary-color;
 }
+.info{
 
+    background-color:  $info-color;
+
+}
+.active-page{
+    background-color: silver;
+}
 // Inputs
 .input {
     border: 1px solid $secondary-color;
@@ -33,3 +42,4 @@ $secondary-color: #aaa;
     width: 2rem;
     cursor: pointer;
 }
+//Pagination
