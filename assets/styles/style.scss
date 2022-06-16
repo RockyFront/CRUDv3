@@ -1,0 +1,11 @@
+@import "./cssreset";
+@import "./config";
+// header**
+header{
+    margin-top: 25px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}

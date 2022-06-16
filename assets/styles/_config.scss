@@ -1,0 +1,21 @@
+$success-color:#22c55e;
+$primary-color:#67e8f9; 
+
+
+.btn{
+    
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    padding: 5px 15px;
+    font-size: 1rem;
+
+}
+.success{
+    color: white;
+    background-color: $success-color;
+}
+.blue{
+
+    background-color: $primary-color;
+}
