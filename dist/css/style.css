@@ -49,13 +49,23 @@ table {
   cursor: pointer;
 }
 
+.btn-large {
+  margin: 1rem;
+  padding: 2rem 8rem;
+  font-size: 2em;
+}
+
 .success {
   color: white;
   background-color: #22c55e;
 }
 
-.blue {
+.primary {
   background-color: #67e8f9;
+}
+
+.primary-dark {
+  background-color: rgb(59, 130, 246);
 }
 
 .info {
@@ -129,8 +139,47 @@ table {
   padding: 1rem;
   flex: 1;
 }
-.modal .content .btn {
-  margin: 20px 0 0 80px;
+
+.main-add {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.main-add .content {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  margin: 10vh auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.main-add .content > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-add .content > div > div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.main-add .content label {
+  width: 120px;
+}
+.main-add .content input {
+  padding: 1rem;
+  flex: 1;
+}
+.main-add .btn {
+  margin: auto;
   padding: 2rem 8rem;
   font-size: 2em;
 }
@@ -141,6 +190,11 @@ table {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 html {

@@ -1,6 +1,7 @@
 @import "./cssreset";
 @import "./config";
 @import "./modal";
+@import "./addpage";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 * {
   -webkit-user-select: none;
@@ -8,6 +9,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 html {

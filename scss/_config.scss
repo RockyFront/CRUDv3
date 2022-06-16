@@ -1,9 +1,12 @@
 $success-color: #22c55e;
 $primary-color: #67e8f9;
+$primary-dark-color: rgb(59, 130, 246);
 $secondary-color: #aaa;
-$secondaryDark-color: #6c757d;
+$secondary-dark-color: #6c757d;
 $info-color: #93c5fd;
 $danger-color: crimson;
+
+$green-color: rgb(34, 197, 94);
 
 // Buttons
 .btn {
@@ -14,13 +17,21 @@ $danger-color: crimson;
   font-size: 1rem;
   cursor: pointer;
 }
+.btn-large {
+  margin: 1rem;
+  padding: 2rem 8rem;
+  font-size: 2em;
+}
 
 .success {
   color: white;
   background-color: $success-color;
 }
-.blue {
+.primary {
   background-color: $primary-color;
+}
+.primary-dark {
+  background-color: $primary-dark-color;
 }
 .info {
   background-color: $info-color;
@@ -31,7 +42,7 @@ $danger-color: crimson;
 }
 .secondaryDark {
   color: white;
-  background-color: $secondaryDark-color;
+  background-color: $secondary-dark-color;
 }
 .active-page {
   background-color: silver;
